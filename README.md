@@ -32,10 +32,7 @@ O projeto segue o padrão MVC do Spring Boot, com separação clara entre contro
 - Uso correto das anotações do Spring
 - Estrutura de pastas organizada
 
-### Pontos de melhoria
-- Adicionar validação dos parâmetros recebidos
-- Implementar testes para os controllers
-- Melhorar o design visual das páginas
+
 
 ## Como Rodar o Projeto
 

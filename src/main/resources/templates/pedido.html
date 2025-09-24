@@ -1,26 +1,35 @@
+<!-- Página de resumo do pedido -->
 <!DOCTYPE html>
 <html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8" />
-    <title>Resumo do Pedido</title>
+    <title>Resumo do Pedido</title> <!-- Título da página -->
 </head>
 <body>
-<h1>Resumo do Pedido</h1>
+    <!-- Título principal -->
+    <h1>Resumo do Pedido</h1>
 
-<p><strong>Sabores escolhidos:</strong></p>
-<ul>
-    <li th:each="sabor : ${sabores}" th:text="${sabor}"></li>
-</ul>
+    <!-- Lista de sabores escolhidos -->
+    <p><strong>Sabores escolhidos:</strong></p>
+    <ul>
+        <!-- Itera sobre a lista de sabores recebida do controller -->
+        <li th:each="sabor : ${sabores}" th:text="${sabor}"></li>
+    </ul>
 
-<p><strong>Tamanho:</strong> <span th:text="${tamanho}"></span></p>
+    <!-- Exibe o tamanho escolhido -->
+    <p><strong>Tamanho:</strong> <span th:text="${tamanho}"></span></p>
 
-<p><strong>Adicionais:</strong></p>
-<ul>
-    <li th:each="adicional : ${adicionais}" th:text="${adicional}"></li>
-</ul>
+    <!-- Lista de adicionais escolhidos -->
+    <p><strong>Adicionais:</strong></p>
+    <ul>
+        <!-- Itera sobre a lista de adicionais recebida do controller -->
+        <li th:each="adicional : ${adicionais}" th:text="${adicional}"></li>
+    </ul>
 
-<p><strong>Total: R$ <span th:text="${total}"></span></strong></p>
+    <!-- Exibe o valor total do pedido -->
+    <p><strong>Total: R$ <span th:text="${total}"></span></strong></p>
 
-<a href="/cardapio">Voltar ao cardápio</a>
+    <!-- Link para voltar ao cardápio -->
+    <a href="/cardapio">Voltar ao cardápio</a>
 </body>
 </html>
