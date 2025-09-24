@@ -3,6 +3,10 @@
 
 Projeto de pizzaria desenvolvido com **Spring Boot** para a disciplina de Desenvolvimento Web. O sistema permite visualizar o cardápio, montar pedidos e exibir um resumo do pedido.
 
+> **Este projeto é uma evolução do projeto original feito em Node.js:**
+> 
+> [Pizzaria (Node.js)](https://github.com/MSCiriaco81/Pizzaria)
+
 ## Tecnologias Utilizadas
 - **Java 21**
 - **Spring Boot 3.5.6**
@@ -31,8 +35,6 @@ O projeto segue o padrão MVC do Spring Boot, com separação clara entre contro
 - Código limpo e didático
 - Uso correto das anotações do Spring
 - Estrutura de pastas organizada
-
-
 
 ## Como Rodar o Projeto
 
